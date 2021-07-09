@@ -1,0 +1,86 @@
+body{
+
+    margin: 0;
+}
+
+/********************* Left Section ****************************/
+
+.left-container{
+
+    background-color: #A9F1DF;
+    width: 65%;
+    height: 621px;
+    display: inline-block;
+    
+
+}
+
+.grid-container{
+
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+    grid-gap: 10px;
+    margin: 13% 25%;
+
+}
+
+.sections{
+
+    background-color: #480032;
+    width: 120px;
+    height: 120px;
+    border-radius: 5%;
+
+}
+
+
+/********************* Right Section ****************************/
+
+.right-container{
+
+    background-color: #04009A;
+    width: 35%;
+    height: 621px;
+    float: right;
+    margin: 0;
+
+}
+
+.input-box{
+
+    margin: 50px 140px;
+
+}
+
+input{
+
+    margin-bottom: 30px;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: #F2EDD7;
+    padding-left: 10px;
+    font-weight: 600;
+
+}
+
+input:focus{
+
+    outline-color: #F8F9FA;
+}
+
+.setName-btn{
+
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+.turn-heading{
+
+    text-align: center;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 20px 0;
+    
+}
